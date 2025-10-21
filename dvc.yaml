@@ -24,13 +24,13 @@ stages:
     outs:
     - data/processed
   model_building:
-    cmd: python src/model_building.py
+    cmd: python src/model_training.py
     deps:
     - data/processed
-    - src/model_building.py
-    params:
-    - model_building.n_estimators
-    - model_building.random_state
+    - src/model_training.py
+    # params:
+    # - model_building.n_estimators
+    # - model_building.random_state
     outs:
     - models/model.pkl
   model_evaluation:
