@@ -51,3 +51,20 @@ cd spam-detection-mlops
 # Create virtual environment & install dependencies
 pip install -r requirements.txt
 ```
+
+## Structure of the project
+
+```bash
+spam-detection-mlops/
+├── src/
+│   ├── data_preprocessing.py
+│   ├── train.py
+│   ├── evaluate.py
+├── data/              # Raw and processed data (ignored by Git)
+├── models/            # Trained model artifacts (ignored by Git)
+├── reports/           # Evaluation results
+├── params.yaml        # Hyperparameters for reproducibility
+├── dvc.yaml           # DVC pipeline definition
+├── .gitignore
+└── README.md
+```
