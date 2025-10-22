@@ -189,17 +189,17 @@ dvc pull
 
 #### ☁️ Remote Storage Management
 
--All data, models, and reports are stored in AWS S3, ensuring:
--Centralized and scalable artifact management
--Seamless collaboration
--Reproducible ML experiments
+All data, models, and reports are stored in AWS S3, ensuring:
+- Centralized and scalable artifact management
+- Seamless collaboration
+- Reproducible ML experiments
 
 #### ✅ Outcomes
--Automated ML pipeline with reproducibility
--Versioned data and models
--Real-time experiment tracking with metrics
--Cloud-based remote storage with AWS S3
--MLOps best practices for CI/CD readiness
+- Automated ML pipeline with reproducibility
+- Versioned data and models
+- Real-time experiment tracking with metrics
+- Cloud-based remote storage with AWS S3
+- MLOps best practices for CI/CD readiness
 
 🧑‍💻 Author
 
